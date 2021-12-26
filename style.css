@@ -9,7 +9,8 @@
 }
 
 .list-center{
-    text-align: center;
+    position: relative;
+    left: 800px;
 }
 
 .list:last-child{
@@ -39,8 +40,8 @@
 
 .block{
     position: relative;
-    left:685px;
-    top: 350px;
+    left:500px;
+    top: 300px;
     height:200px;
     width:200px;
     background:cornflowerblue;
@@ -48,7 +49,7 @@
 
 .mini-block1{
     top: -50px;
-    right: 0px;
+    right: 50px;
     position: absolute;
     height: 50px;
     width: 50px;
@@ -56,7 +57,7 @@
 }
 
 .mini-block2{
-    top: 200px;
+    bottom: 0px;
     right: 0px;
     position: absolute;
     height: 50px;
@@ -84,7 +85,7 @@
 
 .mini-b2{
     top: 0px;
-    left: 50px;
+    right: -50px;
     position: absolute;
     height: 50px;
     width: 50px;
@@ -93,7 +94,7 @@
 
 .mini-b3{
     top: -50px;
-    left: 0px;
+    right: 0px;
     position: absolute;
     height: 50px;
     width: 50px;
@@ -102,8 +103,8 @@
 
 .b{
     position: relative;
-    left:500px;
-    top: 50px;
+    left:1200px;
+    top: 100px;
     height:200px;
     width:200px;
     background:cornflowerblue;
